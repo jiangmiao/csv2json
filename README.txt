@@ -11,11 +11,11 @@ Usage:
 
 Options:
   -comma string
-    	comma (default ",")
+        comma (default ",")
   -no-header
-    	no header, cells will be Array instead of Object
+        no header, the row will be Array instead of Object
   -no-trim
-    	disable trim leading space
+        disable trim leading space
 
 Example:
   $ cat example.csv

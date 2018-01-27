@@ -14,7 +14,7 @@ import (
 func main() {
 	flagNoTrim := flag.Bool("no-trim", false, "disable trim leading space")
 	flagComma := flag.String("comma", ",", "comma")
-	flagNoHeader := flag.Bool("no-header", false, "no header, returns Array instead of Object")
+	flagNoHeader := flag.Bool("no-header", false, "no header, the row will be Array instead of Object")
 	flag.Parse()
 
 	stat, err := os.Stdin.Stat()
