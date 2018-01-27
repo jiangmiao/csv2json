@@ -1,7 +1,7 @@
 CSV2JSON
 
 Convert CSV to JSON
-Work with [jq](https://stedolan.github.io/jq/) a powerful json querier.
+Work with [jq](https://stedolan.github.io/jq/) a powerful JSON querier.
 
 Installation:
   go get github.com/jiangmiao/csv2json
