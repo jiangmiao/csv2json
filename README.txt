@@ -32,3 +32,6 @@ Example:
     "Age": "21",
     "Name": "Eve"
   }
+
+License:
+  MIT
