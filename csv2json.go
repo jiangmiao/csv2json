@@ -67,4 +67,5 @@ Options:`)
 		log.Fatal(err)
 	}
 	os.Stdout.Write(output)
+	os.Stdout.Write([]byte("\n"))
 }
